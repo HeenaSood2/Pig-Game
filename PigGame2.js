@@ -6,7 +6,7 @@ init();
 document.querySelector('.btn-roll').addEventListener("click", function(){
 	winScore=parseInt(document.getElementById('input').value);
 if(gamePlaying){
-//generating random function
+//generating random number
 var dice=Math.floor(Math.random()*6)+1;
 //display the image 
 var demo=document.querySelector('.dice');
